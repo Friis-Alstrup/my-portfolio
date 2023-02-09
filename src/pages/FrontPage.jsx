@@ -52,7 +52,15 @@ export default function FrontPage() {
               isLoading 
               ? <LoadingSpinner /> 
               : Posts.map(({ id, title, slug, description, created_at, category }) => 
-                  <Col key={id} lg="4"><RecentPost title={title} slug={slug} meta={`${category.title} · ${new Date(created_at).toLocaleDateString(undefined, options)}`} description={description} category={category} /></Col>
+                  <Col key={id} lg="4">
+                    <RecentPost 
+                      title={title} 
+                      slug={slug} 
+                      meta={`${category.title} · ${new Date(created_at).toLocaleDateString(undefined, options)}`} 
+                      description={description} 
+                      category={category} 
+                    />
+                  </Col>
                 )
             }
           </Row>

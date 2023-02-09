@@ -20,7 +20,7 @@ export default function AboutPage() {
                 På studiet har jeg primært arbejdet med C#, WPF, ASP.NET (MVC / WEB API), Entity Framework, Blazor, SQL Server, HTML, CSS og JavaScript.
               </p>
               <p>
-                Ved siden af studiet, arbejder jeg som kundekonsulent hos TV 2 på hovedkontoret i Odense.
+                Ved siden af studiet, arbejder jeg som kundekonsulent hos TV 2 Danmark.
               </p>
             </Card.Body>
           </Card>
