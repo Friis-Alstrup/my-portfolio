@@ -540,3 +540,28 @@ footer {
     .learningplan-cards .react-goals {
         margin: 0 0 50px 0;
     }
+
+/* =============== LitteraturePage =============== */
+
+.litteratures {
+    margin: 50px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    .litteratures .card {
+        padding: 20px;
+    }
+    .litteratures .card a {
+        color: blue;
+        font-size: 18px;
+    }
+    .litteratures .card a:hover {
+        text-decoration: underline;
+    }
+    .litteratures .card .card-body .links {
+        margin: 20px 0 20px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
