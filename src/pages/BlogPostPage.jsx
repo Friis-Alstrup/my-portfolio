@@ -22,7 +22,7 @@ export default function BlogPostPage() {
     fetchData();
   }, []);
 
-  document.title = `${post?.title || "Indlæser..."} • Phillip Friis-Alstrup`;
+  document.title = `${post[0]?.title || "Indlæser..."} • Phillip Friis-Alstrup`;
   return (
     <Container>
       {isLoading ? (
