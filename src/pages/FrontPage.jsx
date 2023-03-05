@@ -6,24 +6,22 @@ import LoadingSpinner from "../components/LoadingSpinner";
 
 export default function FrontPage() {
   const [Posts, setPosts] = useState([]);
-  const [isLoading, SetIsLoading] = useState(true);  
+  const [isLoading, SetIsLoading] = useState(true);
 
   async function fetchData() {
-    await fetch('https://backend.phillipf.dk/api/posts/latest')
-    .then(res => res.json())
-    .then(
-      (result) => {
-      SetIsLoading(false);
-      setPosts(result);
-      }
-    )
-  } 
+    await fetch("https://backend.phillipf.dk/api/posts/latest")
+      .then((res) => res.json())
+      .then((result) => {
+        SetIsLoading(false);
+        setPosts(result);
+      });
+  }
 
   useEffect(() => {
     fetchData();
-  }, [])
+  }, []);
 
-  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  const options = { year: "numeric", month: "long", day: "numeric" };
 
   document.title = "Forside • Phillip Friis-Alstrup";
   return (
@@ -33,39 +31,49 @@ export default function FrontPage() {
           <h1>Hej! Mit navn er Phillip 👋</h1>
           <h2>Jeg er datamatikerstuderende og softwareudvikler</h2>
           <div className="header-buttons">
-            <Button variant="dark" as={Link} to="/om">Mere om mig</Button>
-            <Button variant="dark" as={Link} to="/Blog">Blog</Button>
+            <Button variant="dark" as={Link} to="/om">
+              Mere om mig
+            </Button>
+            <Button variant="dark" as={Link} to="/Blog">
+              Blog
+            </Button>
           </div>
         </div>
         <div className="header-image">
-          <img src="./img/me.jpg"/>
+          <img src="./img/me.jpg" />
         </div>
       </div>
       <div className="recent-posts">
         <div className="recent-posts-header">
           <h3>Seneste indlæg</h3>
-          <Link to="/blog">Se mere <i className="bi bi-arrow-right-short"></i></Link>
+          <Link to="/blog">
+            Se mere <i className="bi bi-arrow-right-short"></i>
+          </Link>
         </div>
         <div className="recent-posts-list">
           <Row className="gy-4">
-            {
-              isLoading 
-              ? <LoadingSpinner /> 
-              : Posts.map(({ id, title, slug, description, created_at, category }) => 
+            {isLoading ? (
+              <LoadingSpinner />
+            ) : (
+              Posts.map(
+                ({ id, title, slug, description, created_at, category }) => (
                   <Col key={id} lg="4">
-                    <RecentPost 
-                      title={title} 
-                      slug={slug} 
-                      meta={`${category.title} · ${new Date(created_at).toLocaleDateString(undefined, options)}`} 
-                      description={description} 
-                      category={category} 
+                    <RecentPost
+                      title={title}
+                      slug={slug}
+                      meta={`${category.title} · ${new Date(
+                        created_at
+                      ).toLocaleDateString(undefined, options)}`}
+                      description={description}
+                      category={category}
                     />
                   </Col>
                 )
-            }
+              )
+            )}
           </Row>
         </div>
       </div>
     </Container>
-  )
+  );
 }

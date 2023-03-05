@@ -14,13 +14,18 @@ export default function LiteraturePage() {
               <Row>
                 <Col lg="6">
                   <div className="links">
-                    <a href="https://beta.reactjs.org/" target="_blank">React Documentation</a>
-                    <a href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d" target="_blank">Full Modern React Tutorial</a>
+                    <a href="https://beta.reactjs.org/" target="_blank">
+                      React Documentation
+                    </a>
+                    <a
+                      href="https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d"
+                      target="_blank"
+                    >
+                      Full Modern React Tutorial
+                    </a>
                   </div>
                 </Col>
-                <Col lg="6">
-
-                </Col>
+                <Col lg="6"></Col>
               </Row>
             </Card.Body>
           </Card>
@@ -30,18 +35,20 @@ export default function LiteraturePage() {
               <Row>
                 <Col lg="6">
                   <div className="links">
-                    <a href="https://dstb.dk/" target="_blank">Danish Software Testing Board</a>
-                    <a href="https://www.cypress.io/" target="_blank">Cypress.io - Automated e2e test</a>
+                    <a href="https://dstb.dk/" target="_blank">
+                      Danish Software Testing Board
+                    </a>
+                    <a href="https://www.cypress.io/" target="_blank">
+                      Cypress.io - Automated e2e test
+                    </a>
                   </div>
                 </Col>
-                <Col lg="6">
-
-                </Col>
+                <Col lg="6"></Col>
               </Row>
             </Card.Body>
           </Card>
         </div>
       </Container>
     </>
-  )
+  );
 }

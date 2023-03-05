@@ -6,5 +6,5 @@ export default function ProjectsPage() {
     <>
       <PageHeader title="Projekter" />
     </>
-  )
+  );
 }

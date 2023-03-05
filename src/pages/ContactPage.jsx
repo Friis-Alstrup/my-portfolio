@@ -11,14 +11,22 @@ export default function ContactPage() {
         <div className="contact-cards">
           <Row className="gy-4">
             <Col lg="6">
-              <ContactCard icon="bi bi-envelope-fill" contact_link="mailto:phillip.friis.alstrup@gmail.com" contact_text="phillip.friis.alstrup@gmail.com" />
+              <ContactCard
+                icon="bi bi-envelope-fill"
+                contact_link="mailto:phillip.friis.alstrup@gmail.com"
+                contact_text="phillip.friis.alstrup@gmail.com"
+              />
             </Col>
             <Col lg="6">
-              <ContactCard icon="bi bi-telephone-fill" contact_link="tel:004525157660" contact_text="+45 25 15 76 60" />
+              <ContactCard
+                icon="bi bi-telephone-fill"
+                contact_link="tel:004525157660"
+                contact_text="+45 25 15 76 60"
+              />
             </Col>
           </Row>
         </div>
       </Container>
     </>
-  )
+  );
 }

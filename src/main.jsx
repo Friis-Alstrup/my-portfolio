@@ -1,18 +1,18 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Layout from './layout/Layout';
-import FrontPage from './pages/FrontPage';
-import NoPage from './pages/NoPage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
-import ProjectsPage from './pages/ProjectsPage';
-import BlogListPage from './pages/BlogListPage';
-import BlogPostPage from './pages/BlogPostPage';
-import LearningPlanPage from './pages/LearningPlanPage';
-import LearningGoalPage from './pages/LearningGoalPage';
-import LiteraturePage from './pages/LiteraturePage';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Layout from "./layout/Layout";
+import FrontPage from "./pages/FrontPage";
+import NoPage from "./pages/NoPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import BlogListPage from "./pages/BlogListPage";
+import BlogPostPage from "./pages/BlogPostPage";
+import LearningPlanPage from "./pages/LearningPlanPage";
+import LearningGoalPage from "./pages/LearningGoalPage";
+import LiteraturePage from "./pages/LiteraturePage";
 
 export default function App() {
   return (
@@ -46,12 +46,11 @@ export default function App() {
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

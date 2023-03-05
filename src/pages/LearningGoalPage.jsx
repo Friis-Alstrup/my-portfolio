@@ -13,29 +13,52 @@ export default function LearningGoalPage() {
               <Card>
                 <Card.Body>
                   <div className="title">
-                    <img src="/img/react.png"/>
+                    <img src="/img/react.png" />
                     <h1>React</h1>
                   </div>
                   <div className="content">
                     <h2>Viden</h2>
                     <p>Jeg kan:</p>
                     <ul>
-                      <li>Redegøre for centrale elementer, funktioner og begreber i React.</li>
-                      <li>Redegøre for hvorfor og hvonår React er et oplagt værktøj.</li>
-                      <li>Redegøre for sammenhæng mellem React og en backend.</li>
-                      <li>Redegøre for hvordan React er bygget op og teknologien bag.</li>
+                      <li>
+                        Redegøre for centrale elementer, funktioner og begreber
+                        i React.
+                      </li>
+                      <li>
+                        Redegøre for hvorfor og hvonår React er et oplagt
+                        værktøj.
+                      </li>
+                      <li>
+                        Redegøre for sammenhæng mellem React og en backend.
+                      </li>
+                      <li>
+                        Redegøre for hvordan React er bygget op og teknologien
+                        bag.
+                      </li>
                     </ul>
                     <h2>Færdighed</h2>
                     <p>Jeg kan:</p>
                     <ul>
-                      <li>Anvende centrale elementer, funktioner og begreber i React til konstruktion af web-applikationer.</li>
-                      <li>Anvende arkitekturmønstre der passer til opsætning af en React-applikation.</li>
+                      <li>
+                        Anvende centrale elementer, funktioner og begreber i
+                        React til konstruktion af web-applikationer.
+                      </li>
+                      <li>
+                        Anvende arkitekturmønstre der passer til opsætning af en
+                        React-applikation.
+                      </li>
                     </ul>
                     <h2>Kompetencer</h2>
                     <p>Jeg kan:</p>
                     <ul>
-                      <li>Tilegne mig ny viden, færdigheder og kompetencer indenfor React / frontend-udvikling.</li>
-                      <li>Arbejde professionelt med React som værktøj, til brug i frontend-udvikling.</li>
+                      <li>
+                        Tilegne mig ny viden, færdigheder og kompetencer
+                        indenfor React / frontend-udvikling.
+                      </li>
+                      <li>
+                        Arbejde professionelt med React som værktøj, til brug i
+                        frontend-udvikling.
+                      </li>
                     </ul>
                   </div>
                 </Card.Body>
@@ -45,26 +68,43 @@ export default function LearningGoalPage() {
               <Card>
                 <Card.Body>
                   <div className="title">
-                    <img src="/img/testing.png"/>
+                    <img src="/img/testing.png" />
                     <h1>Testing</h1>
                   </div>
                   <div className="content">
                     <h2>Viden</h2>
                     <p>Jeg kan:</p>
                     <ul>
-                      <li>Redegøre for centrale elementer, funktioner og begreber indenfor testing af software.</li>
-                      <li>Redegøre for hvorfor og hvornår brug af "Continuous integration/Continuous delivery" med automatiseret test er nyttigt.</li>
+                      <li>
+                        Redegøre for centrale elementer, funktioner og begreber
+                        indenfor testing af software.
+                      </li>
+                      <li>
+                        Redegøre for hvorfor og hvornår brug af "Continuous
+                        integration/Continuous delivery" med automatiseret test
+                        er nyttigt.
+                      </li>
                     </ul>
                     <h2>Færdighed</h2>
                     <p>Jeg kan:</p>
                     <ul>
-                      <li>Udføre integration-, accesebility-, end to end-, acceptance- og usability-testing på mit software produkt.</li>
+                      <li>
+                        Udføre integration-, accesebility-, end to end-,
+                        acceptance- og usability-testing på mit software
+                        produkt.
+                      </li>
                     </ul>
                     <h2>Kompetencer</h2>
                     <p>Jeg kan:</p>
                     <ul>
-                      <li>Tilegne mig ny viden, færdigheder og kompetencer indenfor forskellige typer af software test.</li>
-                      <li>Arbejde professionelt med testing af software, til brug i både frontend- og backend-udvikling.</li>
+                      <li>
+                        Tilegne mig ny viden, færdigheder og kompetencer
+                        indenfor forskellige typer af software test.
+                      </li>
+                      <li>
+                        Arbejde professionelt med testing af software, til brug
+                        i både frontend- og backend-udvikling.
+                      </li>
                     </ul>
                   </div>
                 </Card.Body>
@@ -74,5 +114,5 @@ export default function LearningGoalPage() {
         </div>
       </Container>
     </>
-  )
+  );
 }
