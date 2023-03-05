@@ -6,33 +6,33 @@ import BlogEntry from "../components/BlogEntry";
 import CategoryList from "../components/CategoryList";
 
 export default function BlogListPage() {
-  const [Posts, setPosts] = useState([]);
-  const [PostsSorted, setPostsSorted] = useState([]);
-  const [isPostsSorted, SetIsPostsSorted] = useState("");
-  const [isLoading, SetIsLoading] = useState(true);
+  const [posts, setPosts] = useState([]);
+  const [postsSorted, setPostsSorted] = useState([]);
+  const [isPostsSorted, setIsPostsSorted] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   async function fetchData() {
     await fetch("https://backend.phillipf.dk/api/posts")
       .then((res) => res.json())
       .then((result) => {
-        SetIsLoading(false);
+        setIsLoading(false);
         setPosts(result);
         setPostsSorted(result);
-        SetIsPostsSorted("all");
+        setIsPostsSorted("all");
       });
   }
 
   function SortPosts(category) {
-    const postsWithChosenCategory = Posts.filter(
+    const postsWithChosenCategory = posts.filter(
       (p) => p.category_id == category
     );
     setPostsSorted(postsWithChosenCategory);
-    SetIsPostsSorted(category);
+    setIsPostsSorted(category);
   }
 
   function ResetPosts() {
-    setPostsSorted(Posts);
-    SetIsPostsSorted("all");
+    setPostsSorted(posts);
+    setIsPostsSorted("all");
   }
 
   useEffect(() => {
@@ -53,7 +53,7 @@ export default function BlogListPage() {
                     {isLoading ? (
                       <LoadingSpinner />
                     ) : (
-                      PostsSorted.map(
+                      postsSorted.map(
                         ({
                           id,
                           title,
@@ -79,7 +79,7 @@ export default function BlogListPage() {
             </Col>
             <Col lg="4">
               <CategoryList
-                postsCount={Posts.length}
+                postsCount={posts.length}
                 active={isPostsSorted}
                 handleState={SortPosts}
                 resetPosts={ResetPosts}

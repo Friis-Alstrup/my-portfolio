@@ -5,14 +5,14 @@ import RecentPost from "../components/RecentPost";
 import LoadingSpinner from "../components/LoadingSpinner";
 
 export default function FrontPage() {
-  const [Posts, setPosts] = useState([]);
-  const [isLoading, SetIsLoading] = useState(true);
+  const [posts, setPosts] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   async function fetchData() {
     await fetch("https://backend.phillipf.dk/api/posts/latest")
       .then((res) => res.json())
       .then((result) => {
-        SetIsLoading(false);
+        setIsLoading(false);
         setPosts(result);
       });
   }
@@ -55,7 +55,7 @@ export default function FrontPage() {
             {isLoading ? (
               <LoadingSpinner />
             ) : (
-              Posts.map(
+              posts.map(
                 ({ id, title, slug, description, created_at, category }) => (
                   <Col key={id} lg="4">
                     <RecentPost

@@ -6,14 +6,14 @@ import BlogPost from "../components/BlogPost";
 
 export default function BlogPostPage() {
   const { slug } = useParams();
-  const [Post, setPost] = useState([]);
-  const [isLoading, SetIsLoading] = useState(true);
+  const [post, setPost] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   async function fetchData() {
     await fetch(`https://backend.phillipf.dk/api/posts/${slug}`)
       .then((res) => res.json())
       .then((result) => {
-        SetIsLoading(false);
+        setIsLoading(false);
         setPost(result);
       });
   }
@@ -22,8 +22,6 @@ export default function BlogPostPage() {
     fetchData();
   }, []);
 
-  const post = Post[0];
-
   document.title = `${post?.title || "Indlæser..."} • Phillip Friis-Alstrup`;
   return (
     <Container>
@@ -31,10 +29,10 @@ export default function BlogPostPage() {
         <LoadingSpinner />
       ) : (
         <BlogPost
-          title={post?.title}
-          category={post?.category.title}
-          created_at={post?.created_at}
-          content={post?.content}
+          title={post[0]?.title}
+          category={post[0]?.category.title}
+          created_at={post[0]?.created_at}
+          content={post[0]?.content}
         />
       )}
     </Container>

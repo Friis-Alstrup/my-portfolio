@@ -9,14 +9,14 @@ export default function CategoryList({
   resetPosts,
   active,
 }) {
-  const [Categories, setCategories] = useState([]);
-  const [isLoading, SetIsLoading] = useState(true);
+  const [categories, setCategories] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   async function fetchData() {
     await fetch("https://backend.phillipf.dk/api/categories")
       .then((res) => res.json())
       .then((result) => {
-        SetIsLoading(false);
+        setIsLoading(false);
         setCategories(result);
       });
   }
@@ -39,7 +39,7 @@ export default function CategoryList({
           {isLoading ? (
             <LoadingSpinner />
           ) : (
-            Categories.map(
+            categories.map(
               ({ id, title, posts }) =>
                 posts.length > 0 && (
                   <CategoryItem
