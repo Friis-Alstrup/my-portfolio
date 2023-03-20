@@ -9,6 +9,86 @@ export default function LearningPlanPage() {
       <PageHeader title="Læringsplaner" />
       <Container>
         <div className="learningplan-cards">
+        <Card>
+            <Card.Body>
+              <h2>Uge 12 + 13</h2>
+              <div className="react-goals">
+                <h3>React</h3>
+                <div className="table-responsive">
+                  <table class="table table-bordered" style={{ width: "100%" }}>
+                    <thead>
+                      <tr>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Delmål
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvordan vil jeg opnå det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvornår har jeg opnået det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Evaluering
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          Kommer.
+                        </td>
+                        <td>
+                          Kommer.
+                        </td>
+                        <td>
+                          Kommer.
+                        </td>
+                        <td>Kommer.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div className="testing-goals">
+                <h3>Testing</h3>
+                <div className="table-responsive">
+                  <table class="table table-bordered" style={{ width: "100%" }}>
+                    <thead>
+                      <tr>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Delmål
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvordan vil jeg opnå det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvornår har jeg opnået det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Evaluering
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          Kommer.
+                        </td>
+                        <td>
+                          Kommer.
+                        </td>
+                        <td>
+                          Kommer.
+                        </td>
+                        <td>Kommer.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
+
           <Card>
             <Card.Body>
               <h2>Uge 10 + 11</h2>
@@ -49,7 +129,7 @@ export default function LearningPlanPage() {
                           globalstate i mit elpris-produkt, så der ikke behøves
                           fetching af data, ved navigering rund på siden.
                         </td>
-                        <td>Kommer.</td>
+                        <td>Jeg har kigget på et library der hedder Zustand, som gør state management til en dans på roser, ift. den "almindelige" måde at gøre det på i React.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -83,27 +163,28 @@ export default function LearningPlanPage() {
                         </td>
                         <td>
                           Jeg vil undersøge hvordan man kan teste en
-                          React-applikation, ved bla. at kigge på accessibility-
-                          og e2e-test.
+                          React-applikation, ved bla. at kigge på e2e-test.
                         </td>
                         <td>
                           Når jeg har en grundlæggende forståelse for målet,
-                          samt en plan for udførelse af accessibility- og
-                          e2e-test.
+                          samt en plan for udførelse af e2e-test.
                         </td>
-                        <td>Kommer.</td>
+                        <td>Jeg har i denne omgang kigget på e2e-test og har dannet mig et godt indblik i hvad det er. Jeg er i gang med at udføre en e2e-test, på mit seneste react projekt.</td>
                       </tr>
                       <tr>
                         <td>
-                          Forståelse og viden om hvordan man udfører e2e-test via et test-framework kaldet Cypress.
+                          Forståelse og viden om hvordan man udfører e2e-test
+                          via et test-framework kaldet Cypress.
                         </td>
                         <td>
-                          Jeg vil undersøge hvordan man kan udføre e2e-test i Cypress og udføre en e2e-test af mit elpris-produkt.
+                          Jeg vil undersøge hvordan man kan udføre e2e-test i
+                          Cypress og udføre en e2e-test af mit elpris-produkt.
                         </td>
                         <td>
-                          Når jeg har forståelse for brug af Cypress og en fungerende test af mit elpris-produkt.
+                          Når jeg har forståelse for brug af Cypress og en
+                          fungerende test af mit elpris-produkt.
                         </td>
-                        <td>Kommer.</td>
+                        <td>Jeg har kigget på både Cypress og det der hedder Playwright, som er de to største frameworks for denne type af softwaretest. Jeg er i gang med at udføre en e2e-test på mit elpris-produkt, men er ikke helt færdig endnu.</td>
                       </tr>
                     </tbody>
                   </table>
