@@ -38,10 +38,10 @@ export default function LearningPlanPage() {
                           Forstå opsætning af event-handling og callback-functions.
                         </td>
                         <td>
-                          Jeg vil opsætte et react-project der demonsterer hvordan events og callbacks fungere.
+                          Jeg vil opsætte et react-project der demonsterer hvordan events og callbacks fungerer.
                         </td>
                         <td>
-                          Når jeg har et fungerende eksempel på hvordan events og callbacks fungere.
+                          Når jeg har et fungerende eksempel på hvordan events og callbacks fungerer.
                         </td>
                         <td>Kommer.</td>
                       </tr>
