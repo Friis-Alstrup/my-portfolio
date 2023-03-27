@@ -35,13 +35,13 @@ export default function LearningPlanPage() {
                     <tbody>
                       <tr>
                         <td>
-                          Kommer.
+                          Forstå opsætning af event-handling og callback-functions.
                         </td>
                         <td>
-                          Kommer.
+                          Jeg vil opsætte et react-project der demonsterer hvordan events og callbacks fungere.
                         </td>
                         <td>
-                          Kommer.
+                          Når jeg har et fungerende eksempel på hvordan events og callbacks fungere.
                         </td>
                         <td>Kommer.</td>
                       </tr>
@@ -72,13 +72,13 @@ export default function LearningPlanPage() {
                     <tbody>
                       <tr>
                         <td>
-                          Kommer.
+                          Forståelse og grundlæggende viden om hvordan man udfører accessibility-test.
                         </td>
                         <td>
-                          Kommer.
+                          Jeg vil undersøge hvordan udfører en accessibility-test og hvilke værktøjer der kan være nyttige ift. dette.
                         </td>
                         <td>
-                          Kommer.
+                          Når jeg har udført min første accessibility-test og har fundet et godt og intuitivt værktøj.
                         </td>
                         <td>Kommer.</td>
                       </tr>
