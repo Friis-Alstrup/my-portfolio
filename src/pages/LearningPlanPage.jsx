@@ -9,9 +9,9 @@ export default function LearningPlanPage() {
       <PageHeader title="Læringsplaner" />
       <Container>
         <div className="learningplan-cards">
-        <Card>
+          <Card>
             <Card.Body>
-              <h2>Uge 12 + 13</h2>
+              <h2>Uge 15 + 16</h2>
               <div className="react-goals">
                 <h3>React</h3>
                 <div className="table-responsive">
@@ -35,13 +35,13 @@ export default function LearningPlanPage() {
                     <tbody>
                       <tr>
                         <td>
-                          Forstå opsætning af event-handling og callback-functions.
+                          Forståelse og kompetencer indenfor error-handling i React
                         </td>
                         <td>
-                          Jeg vil opsætte et react-project der demonsterer hvordan events og callbacks fungerer.
+                          Ved at lave et fungerende eksempel på error-handling i React.
                         </td>
                         <td>
-                          Når jeg har et fungerende eksempel på hvordan events og callbacks fungerer.
+                          Når jeg har et fungerende eksempel på error-handling i en React-applikation.
                         </td>
                         <td>Kommer.</td>
                       </tr>
@@ -72,15 +72,170 @@ export default function LearningPlanPage() {
                     <tbody>
                       <tr>
                         <td>
-                          Forståelse og grundlæggende viden om hvordan man udfører accessibility-test.
+                          Udførelse af en accessibility test via værktøjet Lighthouse.
                         </td>
                         <td>
-                          Jeg vil undersøge hvordan udfører en accessibility-test og hvilke værktøjer der kan være nyttige ift. dette.
+                          Jeg vil via værktøjet Lighthouse se hvilke elementer der mangler på vores projekts web-applikation.
                         </td>
                         <td>
-                          Når jeg har udført min første accessibility-test og har fundet et godt og intuitivt værktøj.
+                          Når jeg har et eksempel på en udførelse af en accesebility test igennem værktøjet lighthouse.
                         </td>
                         <td>Kommer.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
+
+          <Card>
+            <Card.Body>
+              <h2>Uge 14</h2>
+              <div className="react-goals">
+                <h3>React</h3>
+                <div className="table-responsive">
+                  <table class="table table-bordered" style={{ width: "100%" }}>
+                    <thead>
+                      <tr>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Delmål
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvordan vil jeg opnå det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvornår har jeg opnået det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Evaluering
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Påskeferie.</td>
+                        <td>Påskeferie.</td>
+                        <td>Påskeferie.</td>
+                        <td>Påskeferie.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div className="testing-goals">
+                <h3>Testing</h3>
+                <div className="table-responsive">
+                  <table class="table table-bordered" style={{ width: "100%" }}>
+                    <thead>
+                      <tr>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Delmål
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvordan vil jeg opnå det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvornår har jeg opnået det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Evaluering
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Påskeferie.</td>
+                        <td>Påskeferie.</td>
+                        <td>Påskeferie.</td>
+                        <td>Påskeferie.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
+
+          <Card>
+            <Card.Body>
+              <h2>Uge 12 + 13</h2>
+              <div className="react-goals">
+                <h3>React</h3>
+                <div className="table-responsive">
+                  <table class="table table-bordered" style={{ width: "100%" }}>
+                    <thead>
+                      <tr>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Delmål
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvordan vil jeg opnå det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvornår har jeg opnået det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Evaluering
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          Forstå opsætning af event-handling og
+                          callback-functions.
+                        </td>
+                        <td>
+                          Jeg vil opsætte et react-project der demonsterer
+                          hvordan events og callbacks fungerer.
+                        </td>
+                        <td>
+                          Når jeg har et fungerende eksempel på hvordan events
+                          og callbacks fungerer.
+                        </td>
+                        <td>Jeg har kigget på hvordan callbacks fungere via events. Bla. har jeg implementeret et callback her på min blog som jeg vil skrive et indlæg omkring, i uge 15.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div className="testing-goals">
+                <h3>Testing</h3>
+                <div className="table-responsive">
+                  <table class="table table-bordered" style={{ width: "100%" }}>
+                    <thead>
+                      <tr>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Delmål
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvordan vil jeg opnå det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvornår har jeg opnået det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Evaluering
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          Forståelse og grundlæggende viden om hvordan man
+                          udfører accessibility-test.
+                        </td>
+                        <td>
+                          Jeg vil undersøge hvordan udfører en
+                          accessibility-test og hvilke værktøjer der kan være
+                          nyttige ift. dette.
+                        </td>
+                        <td>
+                          Når jeg har udført min første accessibility-test og
+                          har fundet et godt og intuitivt værktøj.
+                        </td>
+                        <td>Jeg har kigget på hvorfor og hvordan man accessibility tester en web-applikation. Bla. har jeg kigget på det værktøj som hedder Lighthouse, som jeg vil kigge videre på.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -129,7 +284,11 @@ export default function LearningPlanPage() {
                           globalstate i mit elpris-produkt, så der ikke behøves
                           fetching af data, ved navigering rund på siden.
                         </td>
-                        <td>Jeg har kigget på et library der hedder Zustand, som gør state management til en dans på roser, ift. den "almindelige" måde at gøre det på i React.</td>
+                        <td>
+                          Jeg har kigget på et library der hedder Zustand, som
+                          gør state management til en dans på roser, ift. den
+                          "almindelige" måde at gøre det på i React.
+                        </td>
                       </tr>
                     </tbody>
                   </table>
@@ -169,7 +328,12 @@ export default function LearningPlanPage() {
                           Når jeg har en grundlæggende forståelse for målet,
                           samt en plan for udførelse af e2e-test.
                         </td>
-                        <td>Jeg har i denne omgang kigget på e2e-test og har dannet mig et godt indblik i hvad det er. Jeg er i gang med at udføre en e2e-test, på mit seneste react projekt.</td>
+                        <td>
+                          Jeg har i denne omgang kigget på e2e-test og har
+                          dannet mig et godt indblik i hvad det er. Jeg er i
+                          gang med at udføre en e2e-test, på mit seneste react
+                          projekt.
+                        </td>
                       </tr>
                       <tr>
                         <td>
@@ -184,7 +348,13 @@ export default function LearningPlanPage() {
                           Når jeg har forståelse for brug af Cypress og en
                           fungerende test af mit elpris-produkt.
                         </td>
-                        <td>Jeg har kigget på både Cypress og det der hedder Playwright, som er de to største frameworks for denne type af softwaretest. Jeg er i gang med at udføre en e2e-test på mit elpris-produkt, men er ikke helt færdig endnu.</td>
+                        <td>
+                          Jeg har kigget på både Cypress og det der hedder
+                          Playwright, som er de to største frameworks for denne
+                          type af softwaretest. Jeg er i gang med at udføre en
+                          e2e-test på mit elpris-produkt, men er ikke helt
+                          færdig endnu.
+                        </td>
                       </tr>
                     </tbody>
                   </table>

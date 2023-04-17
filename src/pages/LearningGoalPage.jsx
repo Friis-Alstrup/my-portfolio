@@ -25,10 +25,6 @@ export default function LearningGoalPage() {
                         i React.
                       </li>
                       <li>
-                        Redegøre for hvorfor og hvonår React er et oplagt
-                        værktøj.
-                      </li>
-                      <li>
                         Redegøre for sammenhæng mellem React og en backend.
                       </li>
                       <li>
@@ -89,9 +85,8 @@ export default function LearningGoalPage() {
                     <p>Jeg kan:</p>
                     <ul>
                       <li>
-                        Udføre integration-, accesebility-, end to end-,
-                        acceptance- og usability-testing på mit software
-                        produkt.
+                        Udføre accesebility- og end-to-end test på mine software
+                        produkter.
                       </li>
                     </ul>
                     <h2>Kompetencer</h2>
@@ -99,11 +94,11 @@ export default function LearningGoalPage() {
                     <ul>
                       <li>
                         Tilegne mig ny viden, færdigheder og kompetencer
-                        indenfor forskellige typer af software test.
+                        indenfor accesebility- og end-to-end test af software.
                       </li>
                       <li>
                         Arbejde professionelt med testing af software, til brug
-                        i både frontend- og backend-udvikling.
+                        i frontend-udvikling.
                       </li>
                     </ul>
                   </div>
