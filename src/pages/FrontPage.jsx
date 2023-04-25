@@ -40,7 +40,7 @@ export default function FrontPage() {
           </div>
         </div>
         <div className="header-image">
-          <img src="./img/me.jpg" />
+          <img src="./img/me.jpg" alt="Billede af mig" />
         </div>
       </div>
       <div className="recent-posts">

@@ -34,7 +34,7 @@ export default function App() {
         <Route path="/litteratur" element={<Layout />}>
           <Route index element={<LiteraturePage />} />
         </Route>
-        <Route path="/projekter" element={<Layout />}>
+        <Route path="/produkter" element={<Layout />}>
           <Route index element={<ProjectsPage />} />
         </Route>
         <Route path="/om" element={<Layout />}>

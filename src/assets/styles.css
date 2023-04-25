@@ -565,9 +565,38 @@ footer {
 .litteratures .card a:hover {
   text-decoration: underline;
 }
-.litteratures .card .card-body .links {
-  margin: 20px 0 20px 0;
+
+/* =============== ProjectsPage =============== */
+
+.products {
+  margin: 50px 0 100px 0;
+}
+
+.products .card-body {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
+  padding: 40px;
+}
+
+.product-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-links a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-links a i {
+  font-size: 22px;
 }

@@ -36,24 +36,27 @@ export default function LearningGoalPage() {
                     <p>Jeg kan:</p>
                     <ul>
                       <li>
-                        Anvende centrale elementer, funktioner og begreber i
-                        React til konstruktion af web-applikationer.
+                        Anvende state-management, callbacks, error-handling, event-handling, reuseable-components 
+                        og fetch api til konstruktion af frontend-projekter ved brug af React.
                       </li>
                       <li>
-                        Anvende arkitekturmønstre der passer til opsætning af en
-                        React-applikation.
+                        Anvende populære React biblioteker f.eks. Axios, Zustand, Material-UI mm.
+                      </li>
+                      <li>
+                        Anvende arkitekturmønstre der passer til opsætning af en React-applikation.
                       </li>
                     </ul>
                     <h2>Kompetencer</h2>
                     <p>Jeg kan:</p>
                     <ul>
                       <li>
-                        Tilegne mig ny viden, færdigheder og kompetencer
-                        indenfor React / frontend-udvikling.
+                        Arbejde i professionelle sammenhæng med React som værktøj, til brug i frontend-udvikling.
                       </li>
                       <li>
-                        Arbejde professionelt med React som værktøj, til brug i
-                        frontend-udvikling.
+                        Opsætte et professionelt udviklingsmiljø for React-applikationer i f.eks. Visual Studio Code.
+                      </li>
+                      <li>
+                        I en struktureret sammenhæng tilegne mig ny viden, færdigheder og kompetencer inden for React.
                       </li>
                     </ul>
                   </div>
@@ -65,40 +68,40 @@ export default function LearningGoalPage() {
                 <Card.Body>
                   <div className="title">
                     <img src="/img/testing.png" />
-                    <h1>Testing</h1>
+                    <h1>Accesebility og E2E testing</h1>
                   </div>
                   <div className="content">
                     <h2>Viden</h2>
                     <p>Jeg kan:</p>
                     <ul>
                       <li>
-                        Redegøre for centrale elementer, funktioner og begreber
-                        indenfor testing af software.
+                        Redegøre for centrale elementer, funktioner og begreber indenfor testing af frontend-applikationer.
                       </li>
                       <li>
-                        Redegøre for hvorfor og hvornår brug af "Continuous
-                        integration/Continuous delivery" med automatiseret test
-                        er nyttigt.
+                        Redegøre for hvorfor og hvornår brug af ”Continuos integration/Continuous delivery” med automatiseret test af frontend-applikationer er nyttigt.
                       </li>
                     </ul>
                     <h2>Færdighed</h2>
                     <p>Jeg kan:</p>
                     <ul>
                       <li>
-                        Udføre accesebility- og end-to-end test på mine software
-                        produkter.
+                        Udføre accesebility- og end-to-end test af frontend-applikationer.
+                      </li>
+                      <li>
+                        Udføre automatiseret test ved brug af ”Continuos integration/Continuous delivery” via en pipeline på f.eks. Github, Bitbucket, Gitlab osv.
                       </li>
                     </ul>
                     <h2>Kompetencer</h2>
                     <p>Jeg kan:</p>
                     <ul>
                       <li>
-                        Tilegne mig ny viden, færdigheder og kompetencer
-                        indenfor accesebility- og end-to-end test af software.
+                        Arbejde i professionelle sammenhæng med testing af frontend-applikationer.
                       </li>
                       <li>
-                        Arbejde professionelt med testing af software, til brug
-                        i frontend-udvikling.
+                        Anvende professionelle accesebility- og end-to-end test værktøjer til test af frontend-applikationer.
+                      </li>
+                      <li>
+                        I en struktureret sammenhæng tilegne mig ny viden, færdigheder og kompetencer inden for accesebility- og end-to-end test.
                       </li>
                     </ul>
                   </div>

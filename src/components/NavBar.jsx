@@ -29,6 +29,13 @@ export default function NavBar() {
               </NavDropdown.Item>
               <NavDropdown.Item
                 as={Link}
+                to="/produkter"
+                onClick={() => setExpanded(false)}
+              >
+                Produkter
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                as={Link}
                 to="/læringsplaner"
                 onClick={() => setExpanded(false)}
               >
@@ -49,13 +56,6 @@ export default function NavBar() {
                 Litteratur
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link
-              as={Link}
-              to="/projekter"
-              onClick={() => setExpanded(false)}
-            >
-              Projekter
-            </Nav.Link>
             <Nav.Link as={Link} to="/om" onClick={() => setExpanded(false)}>
               Om mig
             </Nav.Link>

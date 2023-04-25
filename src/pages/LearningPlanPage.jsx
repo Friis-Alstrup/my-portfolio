@@ -9,6 +9,110 @@ export default function LearningPlanPage() {
       <PageHeader title="Læringsplaner" />
       <Container>
         <div className="learningplan-cards">
+        <Card>
+            <Card.Body>
+              <h2>Uge 17 + 18</h2>
+              <div className="react-goals">
+                <h3>React</h3>
+                <div className="table-responsive">
+                  <table class="table table-bordered" style={{ width: "100%" }}>
+                    <thead>
+                      <tr>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Delmål
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvordan vil jeg opnå det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvornår har jeg opnået det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Evaluering
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          Forståelse og færdigheder indenfor callbacks i React.
+                        </td>
+                        <td>
+                          Ved at lave et fungerende eksempel på hvordan et callback kan se ud i React.
+                        </td>
+                        <td>
+                          Når jeg har et eksempel på hvordan callbacks fungerer i React.
+                        </td>
+                        <td>Kommer.</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Forståelse og færdigheder indenfor events i React.
+                        </td>
+                        <td>
+                          Ved at lave et fungerende eksempel på hvordan man via events kan kalde en funktion via et andet komponent.
+                        </td>
+                        <td>
+                          Når jeg har et eksempel og kan håndtere events i React.
+                        </td>
+                        <td>Kommer.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div className="testing-goals">
+                <h3>Testing</h3>
+                <div className="table-responsive">
+                  <table class="table table-bordered" style={{ width: "100%" }}>
+                    <thead>
+                      <tr>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Delmål
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvordan vil jeg opnå det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Hvornår har jeg opnået det?
+                        </th>
+                        <th scope="col" style={{ width: "25%" }}>
+                          Evaluering
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          Udførelse af en basal accessibility test via værktøjet Lighthouse.
+                        </td>
+                        <td>
+                          Jeg vil via værktøjet Lighthouse se hvilke elementer der mangler på vores projekts web-applikation.
+                        </td>
+                        <td>
+                          Når jeg har et eksempel på en udførelse af en accesebility test igennem værktøjet lighthouse.
+                        </td>
+                        <td>Kommer.</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Udførelse af en accessibility test via værktøjet Cypress.
+                        </td>
+                        <td>
+                          Jeg vil via værktøjet Cypress teste de accessibility tiltag vi har på vores projekts web-applikation.
+                        </td>
+                        <td>
+                          Når jeg har et eksempel på en udførelse af en accesebility test igennem værktøjet Cypress.
+                        </td>
+                        <td>Kommer.</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </Card.Body>
+          </Card>
+          
           <Card>
             <Card.Body>
               <h2>Uge 15 + 16</h2>
@@ -35,7 +139,7 @@ export default function LearningPlanPage() {
                     <tbody>
                       <tr>
                         <td>
-                          Forståelse og kompetencer indenfor error-handling i React
+                          Forståelse og færdigheder indenfor error-handling i React.
                         </td>
                         <td>
                           Ved at lave et fungerende eksempel på error-handling i React.
@@ -43,7 +147,7 @@ export default function LearningPlanPage() {
                         <td>
                           Når jeg har et fungerende eksempel på error-handling i en React-applikation.
                         </td>
-                        <td>Kommer.</td>
+                        <td>Jeg har læst et blog indlæg med best practices indenfor error handling i React og implenteret det i vores fælles produkt. NB. Så udskyder jeg delmålet til næste uge.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -80,7 +184,7 @@ export default function LearningPlanPage() {
                         <td>
                           Når jeg har et eksempel på en udførelse af en accesebility test igennem værktøjet lighthouse.
                         </td>
-                        <td>Kommer.</td>
+                        <td>Jeg har kigget yderligere på værktøjet Lighthouse, men har kun udført nogle få test med værktøjet. Derudover har jeg kigget mere på Cypress, da det også kan bruges til Accessibiliy testing.</td>
                       </tr>
                     </tbody>
                   </table>
