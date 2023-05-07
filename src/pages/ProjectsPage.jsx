@@ -31,6 +31,23 @@ export default function ProjectsPage() {
               <Card>
                 <Card.Body>
                   <div className="product-header">
+                    <h4>Første Cypress test</h4>
+                    <h5>
+                      <Badge bg="success">Testing</Badge>
+                    </h5>
+                  </div>
+                  <hr />
+                  <div className="product-links">
+                    <a href="https://github.com/Friis-Alstrup/react-electricity-prices/tree/master/cypress" target="_blank"><i className="bi bi-github"></i>Github Repo</a>
+                    <Link to="/blog/foerste-e2e-test-i-cypress"><i class="bi bi-globe2"></i>Blog indlæg</Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg="4">
+              <Card>
+                <Card.Body>
+                  <div className="product-header">
                     <h4>Dagens elpriser</h4>
                     <h5>
                       <Badge bg="primary">React</Badge>
@@ -48,15 +65,15 @@ export default function ProjectsPage() {
               <Card>
                 <Card.Body>
                   <div className="product-header">
-                    <h4>Første Cypress test</h4>
+                    <h4>Vikar løn</h4>
                     <h5>
-                      <Badge bg="success">Testing</Badge>
+                      <Badge bg="primary">React</Badge>
                     </h5>
                   </div>
                   <hr />
                   <div className="product-links">
-                    <a href="https://github.com/Friis-Alstrup/react-electricity-prices/tree/master/cypress" target="_blank"><i className="bi bi-github"></i>Github Repo</a>
-                    <Link to="/blog/foerste-e2e-test-i-cypress"><i class="bi bi-globe2"></i>Blog indlæg</Link>
+                    <a href="https://github.com/Friis-Alstrup/vikar-loen" target="_blank"><i className="bi bi-github"></i>Github Repo</a>
+                    {/* <Link to="/blog/"><i class="bi bi-globe2"></i>Blog indlæg</Link> */}
                   </div>
                 </Card.Body>
               </Card>

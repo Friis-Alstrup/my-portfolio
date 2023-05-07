@@ -18,45 +18,56 @@ export default function LearningGoalPage() {
                   </div>
                   <div className="content">
                     <h2>Viden</h2>
-                    <p>Jeg kan:</p>
+                    <p className="pb-2">Jeg kan:</p>
                     <ul>
                       <li>
-                        Redegøre for centrale elementer, funktioner og begreber
-                        i React.
+                        Redegøre for centrale elementer og begreber indenfor
+                        React herunder: ES6, JSX, Functional Components, Props, State,
+                        Events, Routing og Hooks.
                       </li>
                       <li>
-                        Redegøre for sammenhæng mellem React og en backend.
+                        Redegøre for sammenhæng mellem React og et API, ved
+                        fetching af ekstern data.
                       </li>
+                      <li>Redegøre for den grundlæggende teknologi bag React.</li>
                       <li>
-                        Redegøre for hvordan React er bygget op og teknologien
-                        bag.
+                        Forklare hvorfor det giver mening at anvende React til
+                        udvikling af frontend-applikationer.
                       </li>
                     </ul>
                     <h2>Færdighed</h2>
-                    <p>Jeg kan:</p>
+                    <p className="pb-2">Jeg kan:</p>
                     <ul>
                       <li>
-                        Anvende state-management, callbacks, error-handling, event-handling, reuseable-components 
-                        og fetch api til konstruktion af frontend-projekter ved brug af React.
+                        Anvende state management, callback-funktioner,
+                        error-handling, event-handling, reusable-components og
+                        fetching af data til konstruktion af simple
+                        frontend-applikationer ved brug af React.
                       </li>
                       <li>
-                        Anvende populære React biblioteker f.eks. Axios, Zustand, Material-UI mm.
+                        Anvende populære React biblioteker med forskellige
+                        formål herunder: Axios, Zustand, Material-UI,
+                        React-toastify og React-bootstrap.
                       </li>
                       <li>
-                        Anvende arkitekturmønstre der passer til opsætning af en React-applikation.
+                        Opsætte et professionelt udviklingsmiljø for React i
+                        f.eks. Visual Studio Code.
                       </li>
                     </ul>
                     <h2>Kompetencer</h2>
-                    <p>Jeg kan:</p>
+                    <p className="pb-2">Jeg kan:</p>
                     <ul>
                       <li>
-                        Arbejde i professionelle sammenhæng med React som værktøj, til brug i frontend-udvikling.
+                        Udvikle frontend-applikationer ved brug af React til at
+                        understøtte læring.
                       </li>
                       <li>
-                        Opsætte et professionelt udviklingsmiljø for React-applikationer i f.eks. Visual Studio Code.
+                        Se sammenhæng mellem React og andre kodesprog /
+                        frontend-frameworks.
                       </li>
                       <li>
-                        I en struktureret sammenhæng tilegne mig ny viden, færdigheder og kompetencer inden for React.
+                        I et struktureret sammenhæng opsøge ny viden og tilegne
+                        nye færdigheder indenfor React.
                       </li>
                     </ul>
                   </div>
@@ -72,36 +83,58 @@ export default function LearningGoalPage() {
                   </div>
                   <div className="content">
                     <h2>Viden</h2>
-                    <p>Jeg kan:</p>
+                    <p className="pb-2">Jeg kan:</p>
                     <ul>
                       <li>
-                        Redegøre for centrale elementer, funktioner og begreber indenfor testing af frontend-applikationer.
+                        Redegøre for centrale elementer og begreber indenfor
+                        accessibility-testing herunder: WCAG, Skærmlæsere,
+                        farve-kontraster, Aria, responsivt
+                        design, usablity og inklusiv design.
                       </li>
                       <li>
-                        Redegøre for hvorfor og hvornår brug af ”Continuos integration/Continuous delivery” med automatiseret test af frontend-applikationer er nyttigt.
+                        Redegøre for centrale elementer og begreber indenfor
+                        end-to-end testing herunder: Testplan, testcases,
+                        automatiseret test, black box testing, white box testing
+                        og CI/CD.
+                      </li>
+                      <li>
+                        Forklare hvorfor det giver mening at teste
+                        frontend-applikationer ved anvendelse af accessibility-
+                        og end-to-end test.
                       </li>
                     </ul>
                     <h2>Færdighed</h2>
-                    <p>Jeg kan:</p>
+                    <p className="pb-2">Jeg kan:</p>
                     <ul>
                       <li>
-                        Udføre accesebility- og end-to-end test af frontend-applikationer.
+                        Udføre simple accessibility test af
+                        frontend-applikationer.
                       </li>
                       <li>
-                        Udføre automatiseret test ved brug af ”Continuos integration/Continuous delivery” via en pipeline på f.eks. Github, Bitbucket, Gitlab osv.
+                        Udføre simple end-to-end test af frontend-applikationer.
+                      </li>
+                      <li>
+                        Udføre automatiseret test ved brug af ”Continuos
+                        integration/Continuous delivery” via en pipeline på
+                        f.eks. Github, Bitbucket, Gitlab osv.
+                      </li>
+                      <li>
+                        Opsætte professionelle testmiljøer til brug ved
+                        accessiblity- og end-to-end tests. F.eks. værktøjerne
+                        Cypress og Wave.
                       </li>
                     </ul>
                     <h2>Kompetencer</h2>
-                    <p>Jeg kan:</p>
+                    <p className="pb-2">Jeg kan:</p>
                     <ul>
                       <li>
-                        Arbejde i professionelle sammenhæng med testing af frontend-applikationer.
+                        Teste frontend-applikationer ved brug af accessibility
+                        og end-to-end testing til at understøtte læring.
                       </li>
                       <li>
-                        Anvende professionelle accesebility- og end-to-end test værktøjer til test af frontend-applikationer.
-                      </li>
-                      <li>
-                        I en struktureret sammenhæng tilegne mig ny viden, færdigheder og kompetencer inden for accesebility- og end-to-end test.
+                        I et struktureret sammenhæng opsøge ny viden og tilegne
+                        nye færdigheder indenfor accessiblity- og end-to-end
+                        testing.
                       </li>
                     </ul>
                   </div>
