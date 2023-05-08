@@ -289,22 +289,46 @@ export default function LiteraturePage() {
                       </tr>
                       <tr>
                         <td>
-                          <a href="https://codemantra.com/why-website-accessibility-testing-is-important/" target="_blank">
+                          <a
+                            href="https://codemantra.com/why-website-accessibility-testing-is-important/"
+                            target="_blank"
+                          >
                             Why Website Accessibility Testing Is Important
                           </a>
                         </td>
                         <td>
-                          Denne side har jeg brugt til at skabe en dybere forståelse for hvordan og hvorfor at accessibility testing er så vigtigt.
+                          Denne side har jeg brugt til at skabe en dybere
+                          forståelse for hvordan og hvorfor at accessibility
+                          testing er så vigtigt.
                         </td>
                       </tr>
                       <tr>
                         <td>
-                          <a href="https://www.browserstack.com/guide/test-planning" target="_blank">
+                          <a
+                            href="https://www.browserstack.com/guide/test-planning"
+                            target="_blank"
+                          >
                             Test Planning: A Detailed Guide
-                          </a>  
+                          </a>
                         </td>
                         <td>
-                          Denne side beskriver detaljeret hvordan man laver en testplan, på den helt rigtige måde.
+                          Denne side beskriver detaljeret hvordan man laver en
+                          testplan, på den helt rigtige måde.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://www.javatpoint.com/test-plan"
+                            target="_blank"
+                          >
+                            Test plan
+                          </a>
+                        </td>
+                        <td>
+                          Endnu en god artikel der i dybden beskriver hvordan
+                          man laver en test plan. Den har mange gode
+                          illustrationer.
                         </td>
                       </tr>
                     </tbody>
