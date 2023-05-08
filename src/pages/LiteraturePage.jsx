@@ -287,6 +287,26 @@ export default function LiteraturePage() {
                           fejl ift. accessibility på siden.
                         </td>
                       </tr>
+                      <tr>
+                        <td>
+                          <a href="https://codemantra.com/why-website-accessibility-testing-is-important/" target="_blank">
+                            Why Website Accessibility Testing Is Important
+                          </a>
+                        </td>
+                        <td>
+                          Denne side har jeg brugt til at skabe en dybere forståelse for hvordan og hvorfor at accessibility testing er så vigtigt.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a href="https://www.browserstack.com/guide/test-planning" target="_blank">
+                            Test Planning: A Detailed Guide
+                          </a>  
+                        </td>
+                        <td>
+                          Denne side beskriver detaljeret hvordan man laver en testplan, på den helt rigtige måde.
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
