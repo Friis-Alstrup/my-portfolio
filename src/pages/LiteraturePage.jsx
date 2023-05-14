@@ -331,6 +331,48 @@ export default function LiteraturePage() {
                           illustrationer.
                         </td>
                       </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://ddiy.co/web-accessibility-statistics/"
+                            target="_blank"
+                          >
+                            57 Web Accessibility Statistics
+                          </a>
+                        </td>
+                        <td>
+                          Denne side fandt jeg da jeg ledte efter nogle
+                          statistikker ift. hvor relevant accessiblity testing
+                          er. Her fandt jeg bla. ud af at ca. 15% på verdensplan
+                          har en eller anden form for funktionsnedsættelse.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://www.nvaccess.org/"
+                            target="_blank"
+                          >
+                            NV Access
+                          </a>
+                        </td>
+                        <td>
+                          Dette program er en skærmlæser som jeg har brugt til at teste hjemmesider for deres web accessibility.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines"
+                            target="_blank"
+                          >
+                            Web Content Accessibility Guidelines (WCAG)
+                          </a>
+                        </td>
+                        <td>
+                          Denne wikiside beskriver hvad "Web Content Accessibility Guidelines (WCAG)" er, samt giver et overblik over de forskellige "guidelines" og "success criterias" ift. web accessibility.
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>

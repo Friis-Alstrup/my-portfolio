@@ -79,7 +79,7 @@ export default function LearningGoalPage() {
                 <Card.Body>
                   <div className="title">
                     <img src="/img/testing.png" />
-                    <h1>Accesebility og E2E testing</h1>
+                    <h1>Accessibility og E2E testing</h1>
                   </div>
                   <div className="content">
                     <h2>Viden</h2>
@@ -94,8 +94,7 @@ export default function LearningGoalPage() {
                       <li>
                         Redegøre for centrale elementer og begreber indenfor
                         end-to-end testing herunder: Testplan, testcases,
-                        automatiseret test, black box testing, white box testing
-                        og CI/CD.
+                        automatiseret test, black box testing, white box testing.
                       </li>
                       <li>
                         Forklare hvorfor det giver mening at teste
@@ -108,19 +107,14 @@ export default function LearningGoalPage() {
                     <ul>
                       <li>
                         Udføre simple accessibility test af
-                        frontend-applikationer.
+                        frontend-applikationer med værktøjerne: Lighthouse, Wave og NVAccess.
                       </li>
                       <li>
-                        Udføre simple end-to-end test af frontend-applikationer.
-                      </li>
-                      <li>
-                        Udføre automatiseret test ved brug af ”Continuos
-                        integration/Continuous delivery” via en pipeline på
-                        f.eks. Github, Bitbucket, Gitlab osv.
+                        Udføre simple end-to-end test af frontend-applikationer ved brug af værktøjet: Cypress.
                       </li>
                       <li>
                         Opsætte professionelle testmiljøer til brug ved
-                        accessiblity- og end-to-end tests. F.eks. værktøjerne
+                        accessibility- og end-to-end tests. F.eks. værktøjerne
                         Cypress og Wave.
                       </li>
                     </ul>
@@ -133,7 +127,7 @@ export default function LearningGoalPage() {
                       </li>
                       <li>
                         I et struktureret sammenhæng opsøge ny viden og tilegne
-                        nye færdigheder indenfor accessiblity- og end-to-end
+                        nye færdigheder indenfor accessibility- og end-to-end
                         testing.
                       </li>
                     </ul>
