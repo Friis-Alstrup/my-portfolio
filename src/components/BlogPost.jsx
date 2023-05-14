@@ -1,5 +1,5 @@
 import ReactMarkdown from "react-markdown";
-import rehypeRaw from "https://esm.sh/rehype-raw@6";
+import rehypeRaw from "rehype-raw";
 
 export default function BlogPost({ title, category, created_at, content }) {
   const options = { year: "numeric", month: "long", day: "numeric" };
