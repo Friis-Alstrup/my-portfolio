@@ -102,6 +102,30 @@ export default function ProjectsPage() {
               <Card>
                 <Card.Body>
                   <div className="product-header">
+                    <h4>E2E test af Stemonline</h4>
+                    <h5>
+                      <Badge bg="success">Testing</Badge>
+                    </h5>
+                  </div>
+                  <hr />
+                  <div className="product-links">
+                    <a
+                      href="https://www.youtube.com/watch?v=WQ_wO3ScRjY"
+                      target="_blank"
+                    >
+                      <i className="bi bi-youtube"></i>Video
+                    </a>
+                    <Link to="/blog/testing-produkt-e2e-test-af-kommuner-i-stemonline">
+                      <i class="bi bi-globe2"></i>Blog indlæg
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg="4">
+              <Card>
+                <Card.Body>
+                  <div className="product-header">
                     <h4>Accessibility test plan</h4>
                     <h5>
                       <Badge bg="success">Testing</Badge>
