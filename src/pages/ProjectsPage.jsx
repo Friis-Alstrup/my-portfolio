@@ -102,14 +102,20 @@ export default function ProjectsPage() {
               <Card>
                 <Card.Body>
                   <div className="product-header">
-                    <h4>Video om accessibility</h4>
+                    <h4>Accessibility test plan</h4>
                     <h5>
                       <Badge bg="success">Testing</Badge>
                     </h5>
                   </div>
                   <hr />
                   <div className="product-links">
-                    <Link to="/blog/testing-produkt-video-om-accessibility-testing-og-vaerktoejer-til-at-udfoere-test">
+                    <a
+                      href="https://filer.phillipf.dk/AccessibilityTestPlan.pdf"
+                      target="_blank"
+                    >
+                      <i className="bi bi-file-earmark-text-fill"></i>PDF
+                    </a>
+                    <Link to="/blog/testing-produkt-test-plan-for-overholdelse-af-accessibility-guidelines">
                       <i class="bi bi-globe2"></i>Blog indlæg
                     </Link>
                   </div>
@@ -120,7 +126,31 @@ export default function ProjectsPage() {
               <Card>
                 <Card.Body>
                   <div className="product-header">
-                    <h4>Første Cypress test</h4>
+                    <h4>Video om accessibility</h4>
+                    <h5>
+                      <Badge bg="success">Testing</Badge>
+                    </h5>
+                  </div>
+                  <hr />
+                  <div className="product-links">
+                    <a
+                      href="https://www.youtube.com/watch?v=73MzNF9erO8"
+                      target="_blank"
+                    >
+                      <i className="bi bi-youtube"></i>Video
+                    </a>
+                    <Link to="/blog/testing-produkt-video-om-accessibility-testing-og-vaerktoejer-til-test">
+                      <i class="bi bi-globe2"></i>Blog indlæg
+                    </Link>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col lg="4">
+              <Card>
+                <Card.Body>
+                  <div className="product-header">
+                    <h4>Første E2E test</h4>
                     <h5>
                       <Badge bg="success">Testing</Badge>
                     </h5>
@@ -133,7 +163,7 @@ export default function ProjectsPage() {
                     >
                       <i className="bi bi-github"></i>Github Repo
                     </a>
-                    <Link to="/blog/foerste-e2e-test-i-cypress">
+                    <Link to="/blog/testing-produkt-foerste-e2e-test-i-cypress">
                       <i class="bi bi-globe2"></i>Blog indlæg
                     </Link>
                   </div>

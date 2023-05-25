@@ -366,11 +366,37 @@ export default function LiteraturePage() {
                             href="https://en.wikipedia.org/wiki/Web_Content_Accessibility_Guidelines"
                             target="_blank"
                           >
-                            Web Content Accessibility Guidelines (WCAG)
+                            Web Content Accessibility Guidelines (WCAG) WIKI
                           </a>
                         </td>
                         <td>
                           Denne wikiside beskriver hvad "Web Content Accessibility Guidelines (WCAG)" er, samt giver et overblik over de forskellige "guidelines" og "success criterias" ift. web accessibility.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://www.w3.org/TR/WCAG22/"
+                            target="_blank"
+                          >
+                            Web Content Accessibility Guidelines (WCAG) 2.2
+                          </a>
+                        </td>
+                        <td>
+                          Den officielle side for WCAG 2.2, som giver en dybdegående indsigt i hvad de forskellige guidelines addressere for. Den giver et godt overblik over hvad der skal håndteres, samt succeskriterier for at overholde dem.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://www.w3.org/WAI/WCAG22/quickref/"
+                            target="_blank"
+                          >
+                            How to Meet WCAG (Quick Reference)
+                          </a>
+                        </td>
+                        <td>
+                          En tilpasselig hurtig reference til Web Content Accessibility Guidelines (WCAG) 2.2 krav succeskriterier og teknikker.
                         </td>
                       </tr>
                     </tbody>
