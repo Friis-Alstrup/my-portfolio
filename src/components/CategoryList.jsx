@@ -5,7 +5,7 @@ import CategoryItem from "../components/CategoryItem";
 
 export default function CategoryList({
   postsCount,
-  handleState,
+  handlePosts,
   resetPosts,
   active,
 }) {
@@ -44,10 +44,10 @@ export default function CategoryList({
                 posts.length > 0 && (
                   <CategoryItem
                     key={id}
-                    id={id}
+                    categoryId={id}
                     title={title}
                     count={posts.length}
-                    stateChange={handleState}
+                    handlePosts={handlePosts}
                     active={active == id ? "active" : ""}
                   />
                 )

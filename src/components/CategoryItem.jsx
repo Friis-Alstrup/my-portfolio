@@ -1,15 +1,15 @@
 import React from "react";
 
 export default function CategoryItem({
-  id,
+  categoryId,
   title,
   count,
   active,
-  stateChange,
+  handlePosts,
 }) {
   return (
     <div className="category">
-      <a onClick={() => stateChange(id)} className={active}>
+      <a onClick={() => handlePosts(categoryId)} className={active}>
         {title}
       </a>
       <p>{count}</p>

@@ -48,7 +48,7 @@ export default function LearningPlanPage() {
                           Når jeg har et eksempel på hvordan state kan håndteres
                           ved brug af et third-party library.
                         </td>
-                        <td>Kommer.</td>
+                        <td>Jeg har lavet et produkt (vikar løn), hvor at jeg bruger Zustand til at håndtere state.</td>
                       </tr>
                       <tr>
                         <td>
@@ -64,7 +64,7 @@ export default function LearningPlanPage() {
                           Når jeg har et eksempel på hvordan global state kan
                           håndteres ved brug af et third-party library.
                         </td>
-                        <td>Kommer.</td>
+                        <td>Jeg har lavet et produkt (vikar løn), hvor at jeg bruger Zustand til at håndtere global state.</td>
                       </tr>
                       <tr>
                         <td>
@@ -81,7 +81,7 @@ export default function LearningPlanPage() {
                           mangler at undersøge indenfor udviklingen af
                           frontend-applikationer ved brug af React.
                         </td>
-                        <td>Kommer.</td>
+                        <td>Jeg synes at jeg er rigtig godt med ift. de mål som jeg har sat mig. Jeg er begyndt at finpudse mine projekter lidt, så at de er klar til eksamen.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -122,23 +122,7 @@ export default function LearningPlanPage() {
                           og undersøgt nøglepunkter/best practices indenfor
                           end-to-end testing.
                         </td>
-                        <td>Kommer.</td>
-                      </tr>
-                      <tr>
-                        <td>
-                          Yderligere forståelse og færdigheder, samt udførelse
-                          af accessibility tests ved brug af værktøjer såsom
-                          Wave.
-                        </td>
-                        <td>
-                          Ved at undersøge og herefter udføre en mere avanceret
-                          accessibility test.
-                        </td>
-                        <td>
-                          Når jeg har udført en accessibility test med værktøjet
-                          Wave.
-                        </td>
-                        <td>Kommer.</td>
+                        <td>Jeg har lavet endnu en e2e-test, dog nu af vores Stemonline projekt. Her tester jeg nogle CRUD-funktioner af oprettelse af kommuner, samt at sletten den igen. Dette kan læses mere om her: <Link style={{ textDecoration: "underline" }} to="/blog/testing-produkt-e2e-test-af-kommuner-i-stemonline">test af kommuner i stemonline</Link></td>
                       </tr>
                       <tr>
                         <td>
@@ -155,7 +139,7 @@ export default function LearningPlanPage() {
                           mangler at undersøge indenfor testing af
                           frontend-applikationer.
                         </td>
-                        <td>Kommer.</td>
+                        <td>Jeg synes at jeg er rigtig godt med ift. mit testing-emne. Dog skal jeg lige have læst lidt mere op på, så jeg har styr på mine facts.</td>
                       </tr>
                     </tbody>
                   </table>
@@ -704,7 +688,7 @@ export default function LearningPlanPage() {
                           Jeg har opnået forståelse og viden indenfor state
                           management og hooks, igennem mit første produkt med
                           React. Jeg har nu en fungerende side:{" "}
-                          <Link to="https://elpriser.phillipf.dk">
+                          <Link style={{ textDecoration: "underline" }} to="https://elpriser.phillipf.dk">
                             elpriser.phillipf.dk
                           </Link>
                         </td>
@@ -726,7 +710,7 @@ export default function LearningPlanPage() {
                           Jeg har opnået forståelse og viden indenfor fetching
                           af data, igennem mit første produkt med React. Jeg har
                           nu en fungerende side:{" "}
-                          <Link to="https://elpriser.phillipf.dk">
+                          <Link style={{ textDecoration: "underline" }} to="https://elpriser.phillipf.dk">
                             elpriser.phillipf.dk
                           </Link>
                         </td>

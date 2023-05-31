@@ -22,12 +22,12 @@ export default function BlogListPage() {
       });
   }
 
-  function SortPosts(category) {
+  function HandlePosts(categoryId) {
     const postsWithChosenCategory = posts.filter(
-      (p) => p.category_id == category
+      (p) => p.category_id == categoryId
     );
     setPostsSorted(postsWithChosenCategory);
-    setIsPostsSorted(category);
+    setIsPostsSorted(categoryId);
   }
 
   function ResetPosts() {
@@ -81,7 +81,7 @@ export default function BlogListPage() {
               <CategoryList
                 postsCount={posts.length}
                 active={isPostsSorted}
-                handleState={SortPosts}
+                handlePosts={HandlePosts}
                 resetPosts={ResetPosts}
               />
             </Col>
