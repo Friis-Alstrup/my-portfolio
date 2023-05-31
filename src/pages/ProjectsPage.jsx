@@ -21,7 +21,17 @@ export default function ProjectsPage() {
                     </h5>
                   </div>
                   <hr />
-                  <div className="product-links"></div>
+                  <div className="product-links">
+                    <a
+                      href="https://www.youtube.com/watch?v=xjGtcJtmwm8"
+                      target="_blank"
+                    >
+                      <i className="bi bi-youtube"></i>Video
+                    </a>
+                    <Link to="/blog/react-produkt-stemonline-frontend">
+                      <i class="bi bi-globe2"></i>Blog indlæg
+                    </Link>
+                  </div>
                 </Card.Body>
               </Card>
             </Col>
@@ -90,7 +100,9 @@ export default function ProjectsPage() {
                     >
                       <i className="bi bi-github"></i>Github Repo
                     </a>
-                    {/* <Link to="/blog/"><i class="bi bi-globe2"></i>Blog indlæg</Link> */}
+                    <Link to="/blog/react-produkt-google-oauth-integration-vikar-loen">
+                      <i class="bi bi-globe2"></i>Blog indlæg
+                    </Link>
                   </div>
                 </Card.Body>
               </Card>
