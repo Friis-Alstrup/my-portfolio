@@ -200,6 +200,38 @@ export default function LiteraturePage() {
                           overskuelig.
                         </td>
                       </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://www.npmjs.com/package/react-toastify"
+                            target="_blank"
+                          >
+                            React-toastify
+                          </a>
+                        </td>
+                        <td>
+                          Dette library bruger man til at vise toastbeskeder på
+                          en super nem måde. Det hele kommer pre-styled og det
+                          skal blot kaldes der hvor man ønsker at toastbeskeden
+                          skal vise sig
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://react-bootstrap.github.io/"
+                            target="_blank"
+                          >
+                            React-Bootstrap
+                          </a>
+                        </td>
+                        <td>
+                          React-Bootstrap er et front-end framework der benytter
+                          sig af Bootstrap designsystemet. Her er alle
+                          almindelig bootstrap kompontenter implementeret som
+                          React kompontenter
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
@@ -349,15 +381,13 @@ export default function LiteraturePage() {
                       </tr>
                       <tr>
                         <td>
-                          <a
-                            href="https://www.nvaccess.org/"
-                            target="_blank"
-                          >
+                          <a href="https://www.nvaccess.org/" target="_blank">
                             NV Access
                           </a>
                         </td>
                         <td>
-                          Dette program er en skærmlæser som jeg har brugt til at teste hjemmesider for deres web accessibility.
+                          Dette program er en skærmlæser som jeg har brugt til
+                          at teste hjemmesider for deres web accessibility.
                         </td>
                       </tr>
                       <tr>
@@ -370,7 +400,10 @@ export default function LiteraturePage() {
                           </a>
                         </td>
                         <td>
-                          Denne wikiside beskriver hvad "Web Content Accessibility Guidelines (WCAG)" er, samt giver et overblik over de forskellige "guidelines" og "success criterias" ift. web accessibility.
+                          Denne wikiside beskriver hvad "Web Content
+                          Accessibility Guidelines (WCAG)" er, samt giver et
+                          overblik over de forskellige "guidelines" og "success
+                          criterias" ift. web accessibility.
                         </td>
                       </tr>
                       <tr>
@@ -383,7 +416,11 @@ export default function LiteraturePage() {
                           </a>
                         </td>
                         <td>
-                          Den officielle side for WCAG 2.2, som giver en dybdegående indsigt i hvad de forskellige guidelines addressere for. Den giver et godt overblik over hvad der skal håndteres, samt succeskriterier for at overholde dem.
+                          Den officielle side for WCAG 2.2, som giver en
+                          dybdegående indsigt i hvad de forskellige guidelines
+                          addressere for. Den giver et godt overblik over hvad
+                          der skal håndteres, samt succeskriterier for at
+                          overholde dem.
                         </td>
                       </tr>
                       <tr>
@@ -396,7 +433,40 @@ export default function LiteraturePage() {
                           </a>
                         </td>
                         <td>
-                          En tilpasselig hurtig reference til Web Content Accessibility Guidelines (WCAG) 2.2 krav succeskriterier og teknikker.
+                          En tilpasselig hurtig reference til Web Content
+                          Accessibility Guidelines (WCAG) 2.2 krav
+                          succeskriterier og teknikker.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://www2.stardust-testing.com/en/why-web-accessibility-important"
+                            target="_blank"
+                          >
+                            WHY WEB ACCESSIBILITY IS IMPORTANT
+                          </a>
+                        </td>
+                        <td>
+                          Rigtig god artikel om hvorfor accessibility er så
+                          vigtigt. Den indeholder bla. en video der viser
+                          hvordan en blind person benytter sig af en computer
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <a
+                            href="https://www.lambdatest.com/learning-hub/end-to-end-testing"
+                            target="_blank"
+                          >
+                            What is End-to-End Testing? E2E Testing Tutorial
+                            with Examples and Best Practices
+                          </a>
+                        </td>
+                        <td>
+                          E2E testing tutorial med rigtig mange gode pointer.
+                          Jeg har bla. brugt denne til at forstå bedre hvorfor
+                          at det kan være en god idé at E2E teste.
                         </td>
                       </tr>
                     </tbody>
