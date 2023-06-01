@@ -28,7 +28,7 @@ export default function ProjectsPage() {
                     >
                       <i className="bi bi-youtube"></i>Video
                     </a>
-                    <Link to="/blog/react-produkt-stemonline-frontend">
+                    <Link to="/blog/praesentation-af-stemonline-frontend">
                       <i class="bi bi-globe2"></i>Blog indlæg
                     </Link>
                   </div>
@@ -76,7 +76,7 @@ export default function ProjectsPage() {
                     >
                       <i className="bi bi-github"></i>Github Repo
                     </a>
-                    <Link to="/blog/react-produkt-elpriser">
+                    <Link to="/blog/elprisside-i-react">
                       <i class="bi bi-globe2"></i>Blog indlæg
                     </Link>
                   </div>
@@ -100,7 +100,7 @@ export default function ProjectsPage() {
                     >
                       <i className="bi bi-github"></i>Github Repo
                     </a>
-                    <Link to="/blog/react-produkt-google-oauth-integration-vikar-loen">
+                    <Link to="/blog/google-oauth-integration-i-react-vikar-loen">
                       <i class="bi bi-globe2"></i>Blog indlæg
                     </Link>
                   </div>
@@ -127,7 +127,7 @@ export default function ProjectsPage() {
                     >
                       <i className="bi bi-youtube"></i>Video
                     </a>
-                    <Link to="/blog/testing-produkt-e2e-test-af-kommuner-i-stemonline">
+                    <Link to="/blog/e2e-test-af-kommuner-i-stemonline">
                       <i class="bi bi-globe2"></i>Blog indlæg
                     </Link>
                   </div>
@@ -151,7 +151,7 @@ export default function ProjectsPage() {
                     >
                       <i className="bi bi-file-earmark-text-fill"></i>PDF
                     </a>
-                    <Link to="/blog/testing-produkt-test-plan-for-overholdelse-af-accessibility-guidelines">
+                    <Link to="/blog/test-plan-for-overholdelse-af-accessibility-guidelines">
                       <i class="bi bi-globe2"></i>Blog indlæg
                     </Link>
                   </div>
@@ -175,7 +175,7 @@ export default function ProjectsPage() {
                     >
                       <i className="bi bi-youtube"></i>Video
                     </a>
-                    <Link to="/blog/testing-produkt-video-om-accessibility-testing-og-vaerktoejer-til-test">
+                    <Link to="/blog/video-om-accessibility-testing-og-vaerktoejer-til-test">
                       <i class="bi bi-globe2"></i>Blog indlæg
                     </Link>
                   </div>
@@ -199,7 +199,7 @@ export default function ProjectsPage() {
                     >
                       <i className="bi bi-github"></i>Github Repo
                     </a>
-                    <Link to="/blog/testing-produkt-foerste-e2e-test-i-cypress">
+                    <Link to="/blog/foerste-e2e-test-i-cypress">
                       <i class="bi bi-globe2"></i>Blog indlæg
                     </Link>
                   </div>
